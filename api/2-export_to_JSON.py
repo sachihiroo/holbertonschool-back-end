@@ -25,9 +25,9 @@ def _id(user_id):
 
         user_id: [
             {
+                "username": user_name_dic["username"],
                 "task": task["title"],
                 "completed": task["completed"],
-                "username": user_name_dic["username"]
             }
             for task in todo_dic
         ]
