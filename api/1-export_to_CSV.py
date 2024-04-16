@@ -23,7 +23,7 @@ def _id(user_id):
 
     """Write task information to a CSV file"""
     csv_filename = f"{user_id}.csv"
-    with open(csv_filename, mode="w", newline="") as file:
+    with open(csv_filename, mode="w") as file:
         writer = csv.writer(file, quoting=csv.QUOTE_ALL)
         for task in todo_dic:
             writer.writerow(
