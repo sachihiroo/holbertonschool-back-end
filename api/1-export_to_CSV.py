@@ -2,9 +2,9 @@
 """
 This script fetches and displays information about completed tasks
 """
+import csv
 import requests
 import sys
-import csv
 
 
 def _id(user_id):
