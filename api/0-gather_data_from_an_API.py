@@ -26,7 +26,7 @@ def _id(user_id):
             _comp.append(i["title"])
     """ Display the user's name and completed tasks"""
     print(f"Employee {user_name_dic['name']}is done with tasks\
-({len(_comp)}/{len(todo_dic)}): ")
+({len(_comp)}/{len(todo_dic)}):")
     for task in _comp:
         print(f"\t {task}")
 
