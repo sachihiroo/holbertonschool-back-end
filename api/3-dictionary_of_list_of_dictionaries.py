@@ -5,6 +5,7 @@ This script fetches and displays information about completed tasks
 import json
 import requests
 
+
 def _id():
     """
     Fetches and displays information about completed tasks for a given user ID.
